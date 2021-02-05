@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: roboto;
+    background: gainsboro;
+}
+
+.wrap
+{
+    text-align: center;
+    padding: 200px 0 0;
+}
+
+h1
+{
+    font-size: 58px;
+    margin-bottom: 15px;
+}
+
+#clock span
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #000000FF;
+    box-shadow: 0 5px 15px #000000FF;
+    color: #fff;
+    margin: 0 15px;
+}
+
+#clock span:first-child
+{
+    margin-left: 0;
+}
+
+#clock span:last-child
+{
+    color: #000000FF;
+    background-color: #FFFFFFFF;
+}
+
+#greetings
+{
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 42px;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px #bebebe;
+    animation: greeting 2s ease infinite 1s ;
+}
+
+/*Animation if you want*/ 
+
+/* @keyframes greeting
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+} */
